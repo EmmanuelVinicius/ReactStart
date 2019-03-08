@@ -1,0 +1,80 @@
+.pessoas-list {
+    max-width: 700px;
+    margin: 2px auto 0;
+    padding: 0 20px;
+}
+
+.pessoas-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between
+}
+
+.pessoas-list article img {
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.pessoas-list p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.pessoas-list article div {
+    padding: 10px;
+    left: 0;
+}
+
+.pessoas-list article a {
+    width: 20%;
+    background: #2f96da;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.pessoas-list article a:hover {
+    background: #fff;
+    border: 2px solid #2f96da;
+    color: #2f96da;
+}
+
+.pessoas-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.pessoas-list .actions button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border: 0;
+    background: #2f96da;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pessoas-list .actions button[disabled] {
+    opacity: .5;
+    cursor: default;
+}
+
+.pessoas-list .actions button:hover {
+    opacity: .7;
+}
+
+.pessoas-list .actions button[disabled]:hover {
+    opacity: .5;
+}
